@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #FFF;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+    border: 1px solid red;
+}
+.banner{
+    margin-left: 140px;
+    margin-top: 50px;
+    margin-right: 140px;
+}

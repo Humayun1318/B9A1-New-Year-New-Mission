@@ -6,7 +6,7 @@
     font-family: "Merriweather", serif;
     font-weight: 400;
     font-style: normal;
-    border: 5px solid red;
+    /* border: 5px solid red; */
 }
 body{
     margin-right: 140px;
@@ -123,13 +123,147 @@ body{
     cursor: pointer;
 }
 .party-text button:hover{
-    background-color: #0056b3;
+    background-color:#F00;
 }
 .hotel-section{
+    margin-bottom: 120px;
     height: 482px;
-    fill: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 }
 .hotel-content{
     align-items: center;
+
+}
+.hotel-text-clr{
+    color: #F00;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+}
+.hotel-text{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    color: #070211;
+}
+.coming-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 120px;
+}
+.coming-div1{
+    /* width: 450px */
+
+}
+.coming-div1 strong{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    color: #070211;
+    /* margin-bottom: 20px; */
+
+}
+.coming-div2{
+    padding: 48px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+
+}
+.coming-div2 img{
+    border-radius: 364.844px;
+}
+.coming-div3{
+    margin-top: 40px;
+
+}
+.coming-div3 strong{
+    color: #F00;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+.holiday-section{
+    margin-bottom: 120px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    position: relative;
+    
+
+   
+}
+.holiday-div1{
+
+}
+.holiday-div2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* background-image: url(/resources/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: bottom; */
+}
+#absolute{
+    position: absolute;
+}
+.holiday-section img{
+    width: 100%;
+    /* position: absolute;
+    bottom: 0; */
+}
+
+
+
+
+.portfolio-section{
+    margin-bottom: 120px;
+
+}
+.portfolio-div1{
+
+}
+.portfolio-div2{
+    /* width: 100%; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+.portfolio-div-img img{
+    width: 100%;
+}
+.subscribe-section{
+    padding: 80px 212px;
+    margin-bottom: 120px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05); 
+}
+.subscribe-section-div{
+    text-align: center;
+
+}
+#Subscribe{
+   
+    
+}
+#Subscribe input{
+    /* position: relative; */
+     width: 648px;
+height: 72px;
+border-radius: 50px;
+background: #FFF;
+
+}
+#Subscribe button{
+    /* position:  absolute; */
+    width: 210px;
+height: 72px;
+border-radius: 0px 50px 50px 0px;
+background: #F00;
 
 }

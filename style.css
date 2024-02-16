@@ -2,11 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background: #FFF; */
     font-family: "Merriweather", serif;
     font-weight: 400;
     font-style: normal;
     /* border: 5px solid red; */
+}
+header{
+    margin-right: 140px;
+    margin-left: 140px;
 }
 main{
     margin-right: 140px;
@@ -20,10 +23,12 @@ main{
     background-size: cover;
     background-position: center;
     position: relative;
-    width: 100%;
+    width: 82%;
     height: 600px;
     border-radius: 16px;
     margin-bottom: 120px;
+    margin-right: 140px;
+    
 }
 .content {
   position: absolute;
@@ -156,16 +161,11 @@ main{
     gap: 30px;
     margin-bottom: 120px;
 }
-.coming-div1{
-    /* width: 450px */
-
-}
 .coming-div1 strong{
     font-size: 48px;
     font-style: normal;
     font-weight: 900;
     color: #070211;
-    /* margin-bottom: 20px; */
 
 }
 .coming-div2{
@@ -187,43 +187,47 @@ main{
     font-style: normal;
     font-weight: 700;
 }
+
+
 .holiday-section{
     margin-bottom: 120px;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
     position: relative;
-    
-
-   
 }
 .holiday-div1{
+    text-align: center;
+}
 
+.holiday-img-container{
+  position: relative;
 }
-.holiday-div2{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    /* background-image: url(/resources/Rectangle\ 2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    background-position: bottom; */
+
+.holiday-img-container1 {
+  position: relative;
+  z-index: 2;
 }
-#absolute{
+.rectangle2{
+    margin-bottom: 215px;
+    margin-left: 4px;
+    
+}
+.group44{
+    margin-top: 80px;
+    margin-left: -630px;
     position: absolute;
 }
-.holiday-section img{
-    width: 100%;
-    /* position: absolute;
-    bottom: 0; */
+
+.holiday-img-container2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
 }
-
-
-
-
+.inner-container2 img{
+    position: absolute;
+    width: 100%;
+}
 .portfolio-section{
     margin-bottom: 120px;
-
 }
 .portfolio-div1{
 

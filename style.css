@@ -227,9 +227,6 @@ main{
 .portfolio-section{
     margin-bottom: 120px;
 }
-.portfolio-div1{
-
-}
 .portfolio-div2{
     /* width: 100%; */
     display: grid;
@@ -238,6 +235,10 @@ main{
 }
 .portfolio-div-img img{
     width: 100%;
+}
+.portfolio-div-img img:hover{
+    transform: scale(1.2) rotate(360deg); 
+    transition: transform 0.5s ease;
 }
 .subscribe-section{
     padding: 80px 212px;
